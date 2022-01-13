@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="high-score"><a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+                </i></a></div>
+        <div class="time">
+            <p>Time: <span class="seconds"></span> </p>
+        </div>
+
+
+    </header>
+    <main>
+        <div class="box ">
+            <h2>Coding Quiz Challenge</h2>
+            <p>Try to answer the following code-related questions within the time limit</p>
+            <p>Keep in mind that incorrect answer will penalize your score/time by ten seconds</p>
+
+            <div class="button">Start Quiz</div>
+
+        </div>
+        <div class="scores hide">
+            <h2>Highscores</h2>
+            <div class="iScores"></div>
+            <div class="scores-buttons">
+                <div class="goBack">
+                    <p>Go Back</p>
+                </div>
+                <div class="clearScores">
+                    <p>Clear HighScores</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="questions hide">
+            <div class="options" id="option1"></div>
+            <div class="options" id="option2"></div>
+            <div class="options" id="option3"></div>
+            <div class="options" id="option4"></div>
+        </div>
+        <div class="results hide">
+            <h2>All done!</h2>
+            <p>Your final score is <span id="fScore"></span>.</p>
+            <div class="entries">
+                <p>Enter initials:</p>
+                <input type="text" name="name" id="name">
+                <div class="btn-submit">
+                    <p>Submit</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

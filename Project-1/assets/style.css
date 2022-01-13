@@ -1,0 +1,158 @@
+body{
+    background-color: #ffffff;
+    padding:0px;
+    margin:0px;
+    font-family: Verdana;
+    color:#000000;
+    /* font:16px; */
+}
+
+header{
+    display: flex;
+    background-color:#218380;
+    
+}
+.high-score{
+    margin-top:15px;
+    color: rgb(255, 255, 255);
+    margin-left:2%;
+    /* font: awesome; */
+}
+.high-score:hover{
+    cursor: pointer;
+}
+.time{
+    color: #ffffff;
+    margin-left:auto;
+    margin-right: 5%;
+    /* font: awesome; */
+}
+
+
+.box{
+    margin:10% auto;
+    /* padding:5% */
+    width:70%;
+    height:25%;
+    padding:5%;
+    border:1px solid rgba(128, 128, 128, 0.582);
+    border-radius:20px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.582);
+}
+.box > h2{
+    font-weight: bold;
+}
+.button{
+    background-color: #218380;
+    width:85px;
+    padding:3%;
+    border-radius: 10%;
+    color:#ffffff;
+
+}
+.button:hover{
+    cursor: pointer;
+}
+
+
+.scores{
+    margin:10% auto;
+    /* padding:5% */
+    width:300px;
+    height:25%;
+    padding:5%;
+    border:1px solid rgba(128, 128, 128, 0.582);
+    border-radius:20px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.582);
+}
+.scores > h2{
+    font-weight: bold;
+}
+.scores-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.goBack{
+    background-color: #218380;
+    width:85px;
+    padding:3%;
+    border-radius: 10%;
+    color:#ffffff;
+}
+.goBack:hover{
+    cursor: pointer;
+}
+
+.clearScores{
+    background-color: #218380;
+    width:145px;
+    padding:3%;
+    border-radius: 10%;
+    color:#ffffff;
+}
+.clearScores:hover{
+    cursor: pointer;
+}
+.scores > p{
+    margin-left: 5%;
+}
+
+.questions{
+    margin:10% auto;
+    /* padding:5% */
+    width:70%;
+    height:280px;
+    padding:5%;
+    border:1px solid rgba(128, 128, 128, 0.582);
+    border-radius:20px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.582);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.question{
+    font-size:24px;
+    font-weight: bold;
+}
+.options{
+    background-color: #218380;
+    padding:10px;
+    border-radius: 10px;
+}
+.options:hover{
+    cursor: pointer;
+}
+
+.results{
+    margin:10% auto;
+    /* padding:5% */
+    width:350px;
+    height:25%;
+    padding:5%;
+    border:1px solid rgba(128, 128, 128, 0.582);
+    border-radius:20px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.582);
+}
+.results > h2{
+    font-weight: bold;
+}
+.entries{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.btn-submit{
+    background-color: #218380;
+    width: 20%;
+    border-radius: 10px;
+}
+.btn-submit > p{
+    margin-left: 8px;
+    color: #ffffff;
+}
+.btn-submit:hover{
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
